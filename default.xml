@@ -136,7 +136,7 @@
   <project path="external/unzip" name="LineageOS/android_external_unzip" />
   <project path="external/vim" name="LineageOS/android_external_vim" />
   <project path="external/vogar" name="LineageOS/android_external_vogar" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="LineageOS-MTK/android_external_wpa_supplicant_8" groups="pdk" />
   <project path="external/yaffs2" name="LineageOS/android_external_yaffs2" groups="pdk" />
   <project path="external/zip" name="LineageOS/android_external_zip" />
   <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" />
@@ -289,7 +289,7 @@
   <project path="system/netd" name="LineageOS-MTK/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" />
   <project path="system/security" name="LineageOS/android_system_security" groups="pdk" />
-  <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" />
+  <project path="system/vold" name="LineageOS-MTK/android_system_vold" groups="pdk" />
   <project path="vendor/cm" name="LineageOS/android_vendor_cm" />
   <project path="vendor/cmsdk" name="LineageOS/cm_platform_sdk" />
 
