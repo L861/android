@@ -21,7 +21,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="LineageOS/android" />
+  <project path="android" name="LineageOS-MTK/android" />
 
   <project path="abi/cpp" name="LineageOS/android_abi_cpp" groups="pdk" />
   <project path="art" name="LineageOS/android_art" />
@@ -275,7 +275,7 @@
   <project path="external/tagsoup" name="LineageOS/android_external_tagsoup" />
   <project path="external/tcpdump" name="LineageOS/android_external_tcpdump" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="external/tinyalsa" name="LineageOS/android_external_tinyalsa" groups="pdk" />
+  <project path="external/tinyalsa" name="ugers/android_external_tinyalsa" groups="pdk" />
   <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" />
   <project path="external/tinyxml" name="LineageOS/android_external_tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="LineageOS/android_external_tinyxml2" groups="pdk" />
@@ -294,15 +294,15 @@
   <project path="external/zip" name="LineageOS/android_external_zip" />
   <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="LineageOS/android_external_zxing" />
-  <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="LineageOS/android_frameworks_base" />
+  <project path="frameworks/av" name="ugers/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/base" name="ugers/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="LineageOS/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="LineageOS/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="LineageOS/android_frameworks_compile_slang" groups="pdk" />
   <project path="frameworks/ex" name="LineageOS/android_frameworks_ex" />
   <project path="frameworks/mff" name="LineageOS/android_frameworks_mff" />
   <project path="frameworks/ml" name="LineageOS/android_frameworks_ml" />
-  <project path="frameworks/native" name="LineageOS/android_frameworks_native" groups="pdk" />
+  <project path="frameworks/native" name="ugers/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/calendar" name="LineageOS/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="LineageOS/android_frameworks_opt_carddav" />
   <project path="frameworks/opt/colorpicker" name="LineageOS/android_frameworks_opt_colorpicker" />
@@ -325,13 +325,14 @@
   <project path="frameworks/volley" name="LineageOS/android_frameworks_volley" />
   <project path="frameworks/webview" name="LineageOS/android_frameworks_webview" />
   <project path="frameworks/wilhelm" name="LineageOS/android_frameworks_wilhelm" />
+  <project path="hardware/aw" name="ugers/android_hardware_aw" groups="pdk" />
   <project path="hardware/akm" name="LineageOS/android_hardware_akm" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="LineageOS/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
   <project path="hardware/cm" name="LineageOS/android_hardware_cm" />
   <project path="hardware/invensense" name="LineageOS/android_hardware_invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" />
+  <project path="hardware/libhardware" name="ugers/android_hardware_libhardware" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="ugers/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="LineageOS/android_hardware_qcom_audio-caf" groups="caf" />
   <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom" />
@@ -360,10 +361,10 @@
   <project path="packages/apps/BasicSmsReceiver" name="LineageOS/android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="LineageOS/android_packages_apps_Bluetooth" />
   <project path="packages/apps/BluetoothExt" name="LineageOS/android_packages_apps_BluetoothExt" />
-  <project path="packages/apps/Browser" name="LineageOS/android_packages_apps_Browser" />
+  <project path="packages/apps/Browser" name="ugers/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="LineageOS/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="LineageOS/android_packages_apps_Calendar" />
-  <project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" />
+  <project path="packages/apps/Camera2" name="ugers/android_packages_apps_Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="LineageOS/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="LineageOS/android_packages_apps_CertInstaller" />
   <project path="packages/apps/CMAccount" name="LineageOS/android_packages_apps_CMAccount" />
@@ -379,7 +380,7 @@
   <project path="packages/apps/DSPManager" name="LineageOS/android_packages_apps_DSPManager" />
   <project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />
-  <project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" />
+  <project path="packages/apps/Gallery2" name="ugers/android_packages_apps_Gallery2" />
   <project path="packages/apps/HTMLViewer" name="LineageOS/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/InCallUI" name="LineageOS/android_packages_apps_InCallUI" />
   <project path="packages/apps/KeyChain" name="LineageOS/android_packages_apps_KeyChain" />
@@ -390,9 +391,9 @@
   <project path="packages/apps/PackageInstaller" name="LineageOS/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="LineageOS/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="LineageOS/android_packages_apps_Provision" />
-  <project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="ugers/android_packages_apps_Settings" />
   <project path="packages/apps/SmartCardService" name="LineageOS/android_packages_apps_SmartCardService" />
-  <project path="packages/apps/SoundRecorder" name="LineageOS/android_packages_apps_SoundRecorder" />
+  <project path="packages/apps/SoundRecorder" name="ugers/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="LineageOS/android_packages_apps_SpeechRecorder" />
   <project path="packages/apps/Stk" name="LineageOS/android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="LineageOS/android_packages_apps_Tag" />
@@ -411,7 +412,7 @@
   <project path="packages/providers/CalendarProvider" name="LineageOS/android_packages_providers_CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="LineageOS/android_packages_providers_ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="LineageOS/android_packages_providers_DownloadProvider" />
-  <project path="packages/providers/MediaProvider" name="LineageOS/android_packages_providers_MediaProvider" />
+  <project path="packages/providers/MediaProvider" name="ugers/android_packages_providers_MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="LineageOS/android_packages_providers_PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="LineageOS/android_packages_providers_TelephonyProvider" />
   <project path="packages/providers/ThemesProvider" name="LineageOS/android_packages_providers_ThemesProvider" />
@@ -495,6 +496,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="vendor/cm" name="LineageOS/android_vendor_cm" >
+  <project path="device/softwinner/907" name="ugers/android_device_907" revision="cm-11.0" />
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
   </project>
 </manifest>
